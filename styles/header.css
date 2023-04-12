@@ -12,7 +12,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
+
+/*
+position: relative libera a possibilidade de determinar outros tipos de posicionamentos.
+*/
 
 .container {
     display: flex;
@@ -21,4 +26,38 @@
 
 .container__imagem {
     padding: 1em;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+/*
+position: absolute movimento os "itens" de acordo com a classe pai.
+top: 100% tirou 100% do cabeçalho e desceu a lista. Essa movimentação foi possível, pois a classe pai ".cabecalho" foi definida como position: realtive
+*/
+
+.container__botao:checked~.lista-menu {
+    display: block;
+}
+
+.lista-menu__titulo,
+.lista-menu__item {
+    padding: 1em;
+    background-color: var(--cor-branco);
+}
+
+.lista-menu__titulo {
+    color: var(--cor-laranja);;
+}
+
+.lista-menu__link {
+    background: var(--cor-azul-gradiente);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
 }
