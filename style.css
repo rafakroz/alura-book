@@ -1,6 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
+@import url("../styles/header.css");
+
+:root {
+    /*CORES*/
+    --bg-color: #ebecee;
+    --cor-branco: #ffffff;
+    /*FONTES*/
 }
 
-/*xxx*/
+body {
+    background-color: var(--bg-color);
+}
