@@ -7,8 +7,12 @@
     --cor-laranja: #eb9b00;
     --cor-azul-gradiente: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
     /*FONTES*/
+    --fonte-principal: 'Poppins', sans-serifa;
 }
 
 body {
     background-color: var(--bg-color);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }

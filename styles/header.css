@@ -51,7 +51,8 @@ top: 100% tirou 100% do cabeçalho e desceu a lista. Essa movimentação foi pos
 }
 
 .lista-menu__titulo {
-    color: var(--cor-laranja);;
+    color: var(--cor-laranja);
+    font-weight: 700;
 }
 
 .lista-menu__link {
@@ -60,4 +61,8 @@ top: 100% tirou 100% do cabeçalho e desceu a lista. Essa movimentação foi pos
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+}
+
+.container__botao {
+    display: none;
 }
