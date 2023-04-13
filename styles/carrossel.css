@@ -20,3 +20,13 @@
     position: initial;  /*posiciona os bullets no topo*/
     margin: 0.5em 0;
 }
+
+.card__descricao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__botoes {
+    display: flex;
+    justify-content: space-between;
+}
