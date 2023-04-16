@@ -12,8 +12,10 @@
     --cor-laranja: #eb9b00;
     --cor-azul-gradiente: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
     --cor-azul: #002f52;
+    --cor-preto: #000000;
     /*FONTES*/
     --fonte-principal: 'Poppins', sans-serifa;
+    --fonte-secundaria: 'Josefin Sans', sans-serifa;
 }
 
 body {

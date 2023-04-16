@@ -66,3 +66,60 @@ top: 100% tirou 100% do cabeçalho e desceu a lista. Essa movimentação foi pos
 .container__botao {
     display: none;
 }
+
+.container__titulo,
+.opcoes {
+    display: none;
+}
+
+/* MEDIA QUERIE */
+
+@media screen and (min-width: 1024px) {
+
+    .container__titulo,
+    .container__titulo--negrito {
+        font-family: var(--fonte-secundaria);
+        font-size: 30px;
+    }
+
+    .container__titulo {
+        font-weight: 400;
+        display: block;
+    }
+
+    .container__titulo--negrito {
+        font-weight: 700;
+    }
+
+    .opcoes {
+        display: flex;
+    }
+
+    .opcoes__item {
+        padding: 0 1em;
+        text-transform: uppercase;
+        font-weight: 500;  /* Não tinha */
+    }
+
+    .opcoes__link {
+        text-decoration: none;
+        color: var(--cor-preto);
+    }
+
+    .container__imagem-transparente {
+        display: none;
+    }
+
+    .cabecalho__menu-hamburguer {
+        display: none;
+    }
+
+    .opcoes__botoes:checked ~ .lista-menu {
+        display: block;
+        width: auto;
+    }
+
+    .opcoes__botoes {
+        display: none;
+    }
+}
