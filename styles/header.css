@@ -33,6 +33,7 @@ position: relative libera a possibilidade de determinar outros tipos de posicion
     position: absolute;
     top: 100%;
     width: 60vw;
+    z-index: 2; /* A lista do Menu ficará por cima */
 }
 
 /*

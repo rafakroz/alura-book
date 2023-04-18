@@ -13,6 +13,8 @@
     --cor-azul-gradiente: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
     --cor-azul: #002f52;
     --cor-preto: #000000;
+    --cor-cinza: #474646;
+    --cor-cinza-claro: #858585;
     /*FONTES*/
     --fonte-principal: 'Poppins', sans-serifa;
     --fonte-secundaria: 'Josefin Sans', sans-serifa;
