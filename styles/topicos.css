@@ -43,3 +43,9 @@
         margin: 2.3em 0.5em;
     }
 }
+
+@media screen and (min-width: 1728px){
+    .topicos {
+        padding: 3em 25vw;
+    }
+}
