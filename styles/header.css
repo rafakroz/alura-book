@@ -73,6 +73,10 @@ top: 100% tirou 100% do cabeçalho e desceu a lista. Essa movimentação foi pos
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
+
 /* MEDIA QUERIE */
 
 @media screen and (min-width: 1024px) {
@@ -122,5 +126,26 @@ top: 100% tirou 100% do cabeçalho e desceu a lista. Essa movimentação foi pos
 
     .opcoes__botoes {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--cor-preto);
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .container__texto {
+        display: block;
     }
 }
