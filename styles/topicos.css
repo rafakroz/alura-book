@@ -30,6 +30,11 @@
     font-weight: 700;
 }
 
+.topicos__link:hover {
+    color: var(--cor-laranja);
+    background-color: var(--cor-branco);
+}
+
 @media screen and (min-width: 1024px) {
     .topicos__titulo {
         font-size: 24px;

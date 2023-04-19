@@ -45,6 +45,10 @@
     padding: 1em;
 }
 
+.botoes__ancora:active {
+    background-color: var(--cor-azul);
+}
+
 .descricao__titulo {
     color: var(--cor-laranja);
     font-weight: 700;

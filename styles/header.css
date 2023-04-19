@@ -7,6 +7,14 @@
     display: inline-block;
 }
 
+.container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburguer {
+    background-image: url("../img/MenuAberto.svg");
+}
+
+.container__botao:checked ~ .container__rotulo {
+    background: var(--cor-azul-gradiente);
+}
+
 .cabecalho {
     background-color: var(--cor-branco);
     display: flex;
@@ -126,6 +134,24 @@ top: 100% tirou 100% do cabeçalho e desceu a lista. Essa movimentação foi pos
 
     .opcoes__botoes {
         display: none;
+    }
+
+    .opcoes__botoes:checked ~ .opcoes__rotulo > .opcoes__item {
+        background: var(--cor-azul-gradiente);
+        color: var(--cor-branco);
+    }
+
+    .opcoes__item {
+        padding: 2em 1em;
+    }
+
+    .lista-menu__item:hover {
+        background: var(--cor-azul-gradiente);
+    }
+
+    .lista-menu__item:hover > .lista-menu__link {
+        -webkit-text-fill-color: var(--cor-branco);
+        text-decoration: none;
     }
 }
 
