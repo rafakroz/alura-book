@@ -119,6 +119,7 @@
 
     .swiper {
         width: 50%;
+        margin-top: -40PX; /*Linha adicionada pelo instrutor do forum. Alterando o alinhamento do card com o carousel.*/
     }
 
     .descricao__titulo {
